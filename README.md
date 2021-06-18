@@ -1,7 +1,15 @@
-# HiredKnight
-Front- and backend of the HiredKnight application. 
-------------------------------------------------------------------------
+# README HiredKnight <!-- omit in toc -->
 
-The client can design their own soldier. (Different types of armor multiple weapons.) After designing the soldier will be added to the “camp” (shopping card). 
-The camp can be filled with multiple different soldiers and these soldiers can also be removed again.
-If the client is happy with the camp all soldiers can be hired with the click of a button.
+
+# Docu Navigation <!-- omit in toc -->
+- [README HiredKnight](README.md) 
+- [Description](description.md) 
+------------------------------------------------------------------------
+# File Navigation <!-- omit in toc -->
+- [titel 27](#titel-27)
+  - [titel 28](#titel-28)
+
+# titel 27
+## titel 28
+
+
