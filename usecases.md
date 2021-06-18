@@ -9,7 +9,7 @@
 
 ----------------------------------------------------------------------------------
 # Use Case Diagram
-![usecaseddiagram](images/uc_diagram.png)
+![usecaseddiagram](/images/uc_diagram.png)
 
 ----------------------------------------------------------------------------------
 # Use Case Description 
