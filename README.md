@@ -3,7 +3,9 @@
 
 # Docu Navigation <!-- omit in toc -->
 - [README HiredKnight](README.md) 
-- [Description](description.md) 
+- [Description](description.md)
+- [Testing](testing.md)
+- [Usecases](usecases.md)
 ------------------------------------------------------------------------
 # File Navigation <!-- omit in toc -->
 - [titel 27](#titel-27)
