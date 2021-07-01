@@ -10,7 +10,7 @@ public class HeavyArmour extends EquipDecorator {
 
     @Override
     public String getDescription() {
-        return tempSoldier.getDescription() + "_heavy armour";
+        return tempSoldier.getDescription() + "_heavyarmour";
     }
 
     @Override

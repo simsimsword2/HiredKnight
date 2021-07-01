@@ -14,9 +14,37 @@ public class HiredKnightApplication {
 		SpringApplication.run(HiredKnightApplication.class, args);
 	}
 
-	@GetMapping("/hello")
-	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("Hello %s!", name);
+	@GetMapping("/")
+	public String make(@RequestParam(value = "equip", defaultValue = "man") String equip) {
+
+
+		Soldier tempSoldier = new NakedSoldier();
+
+		if (equip.contains("axe")) {
+			tempSoldier = new Axe(tempSoldier);
+		} else if (equip.contains("sword")) {
+			tempSoldier = new Sword(tempSoldier);
+		} else if (equip.contains("lance")) {
+			tempSoldier = new Lance(tempSoldier);
+		}
+
+		if (equip.contains("heavy_ armour")) {
+			tempSoldier = new HeavyArmour(tempSoldier);
+		} else if (equip.contains("lightarmour")) {
+			tempSoldier = new LightArmour(tempSoldier);
+		}
+
+		if (equip.contains("horse")) {
+			tempSoldier = new Horse(tempSoldier);
+		}
+
+		// in Datenbank
+
+		return String.format("Soldier: ", tempSoldier.getDescription());
+	}
+
+	public String delete(@RequestParam(value = "description") String description) {
+		return String.format("deleted");
 	}
 
 }
