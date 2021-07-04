@@ -14,7 +14,7 @@ public class Lance extends EquipDecorator {
     }
 
     @Override
-    public double getCost() {
+    public int getCost() {
         return tempSoldier.getCost() + 15;
     }
 }

@@ -12,7 +12,7 @@ public class NakedSoldier implements Soldier {
     }
 
     @Override
-    public double getCost() {
+    public int getCost() {
         return 80;
     }
 }

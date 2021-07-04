@@ -14,7 +14,7 @@ public class Axe extends EquipDecorator {
     }
 
     @Override
-    public double getCost() {
+    public int getCost() {
         return tempSoldier.getCost() + 20;
     }
 }

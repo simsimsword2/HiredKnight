@@ -4,6 +4,6 @@ public interface Soldier {
 
     public String getDescription();
 
-    public double getCost();
+    public int getCost();
 
 }

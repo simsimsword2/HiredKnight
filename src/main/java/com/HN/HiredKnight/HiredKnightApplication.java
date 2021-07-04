@@ -1,10 +1,14 @@
 package com.HN.HiredKnight;
 
+import ch.qos.logback.core.spi.PreSerializationTransformer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @SpringBootApplication
 @RestController
@@ -14,9 +18,8 @@ public class HiredKnightApplication {
 		SpringApplication.run(HiredKnightApplication.class, args);
 	}
 
-	@GetMapping("/")
-	public String make(@RequestParam(value = "equip", defaultValue = "man") String equip) {
-
+	@GetMapping("/make")
+	public Response_createSoldier create_soldier(@RequestParam(value = "equip") String equip, @RequestParam(value = "number", defaultValue = "1") int number) {
 
 		Soldier tempSoldier = new NakedSoldier();
 
@@ -40,11 +43,19 @@ public class HiredKnightApplication {
 
 		// in Datenbank
 
-		return String.format("Soldier: ", tempSoldier.getDescription());
+		//JSON
+		Response_createSoldier response = new Response_createSoldier();
+		response.soldier_description = tempSoldier.getDescription();
+		response.sodier_quantity = number;
+		response.soldier_cost = tempSoldier.getCost();
+
+		return response;
 	}
 
+	@DeleteMapping("/DELETE")
 	public String delete(@RequestParam(value = "description") String description) {
-		return String.format("deleted");
+		System.out.println(description);
+		return "deleted " + description;
 	}
 
 }

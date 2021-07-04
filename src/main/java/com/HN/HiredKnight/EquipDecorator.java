@@ -18,7 +18,7 @@ public abstract class EquipDecorator implements Soldier {
     }
 
     @Override
-    public double getCost() {
+    public int getCost() {
         return tempSoldier.getCost();
     }
 }
