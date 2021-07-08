@@ -6,6 +6,7 @@
 - [Description](description.md)
 - [Testing](testing.md)
 - [Usecases](usecases.md)
+- [Usability Test](usabilitytest.md)
 ----------------------------------------------------------------------------------
  # Sort description
 The client can design their own soldier. (Different types of armor multiple weapons.) After designing the soldier will be added to the “camp” (shopping card). 
