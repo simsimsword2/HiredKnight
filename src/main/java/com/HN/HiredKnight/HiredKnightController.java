@@ -1,10 +1,7 @@
 package com.HN.HiredKnight;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
@@ -15,7 +12,12 @@ public class HiredKnightController {
     CampService campService;
 
 
-    @GetMapping("/make")
+    @GetMapping()
+    public Response_createSoldier[] showCamp(){
+        return campService.returnAll();
+    }
+
+    @PutMapping()
     public Response_createSoldier[] camp(@RequestParam(value = "equip") String equip, @RequestParam(value = "number", defaultValue = "1") int number) {
 
         Soldier tempSoldier = new NakedSoldier();
@@ -59,7 +61,7 @@ public class HiredKnightController {
     }
 
     //todo
-    @DeleteMapping("/DELETE")
+    @DeleteMapping()
     public Response_createSoldier[] delete(@RequestParam(value = "description") String description, @RequestParam(value = "number", defaultValue = "1") int number) {
         campService.delete(description, number);
         return campService.returnAll();
