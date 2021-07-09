@@ -60,9 +60,9 @@ public class HiredKnightController {
 
     //todo
     @DeleteMapping("/DELETE")
-    public String delete(@RequestParam(value = "description") String description, @RequestParam(value = "number", defaultValue = "1") int number) {
-        System.out.println(description);
-        return "deleted " + description + "[" + number + "]";
+    public Response_createSoldier[] delete(@RequestParam(value = "description") String description, @RequestParam(value = "number", defaultValue = "1") int number) {
+        campService.delete(description, number);
+        return campService.returnAll();
     }
 
 }

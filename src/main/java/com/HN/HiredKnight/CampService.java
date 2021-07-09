@@ -29,17 +29,17 @@ public class CampService {
     // deleting a soldier has two cases:
     // -soldier is deleted from de database
     // -quantity is reduced in the database
-    protected void delete(Camp newSoldier){
+    protected void delete(String description, int number){
 
-        Optional<Camp> databaseSoldier = campRepository.findById(newSoldier.getDescription());
+        Optional<Camp> databaseSoldier = campRepository.findById(description);
 
         if (databaseSoldier.isPresent()) {
 
-            if (newSoldier.getQuantity() >= databaseSoldier.get().getQuantity()) {
-                campRepository.deleteById(newSoldier.getDescription());
+            if (number >= databaseSoldier.get().getQuantity()) {
+                campRepository.deleteById(description);
             } else {
-                newSoldier.setQuantity(databaseSoldier.get().getQuantity() - newSoldier.getQuantity());
-                campRepository.save(newSoldier);
+                databaseSoldier.get().setQuantity(databaseSoldier.get().getQuantity() - number);
+                campRepository.save(databaseSoldier.get());
             }
         }
     }
