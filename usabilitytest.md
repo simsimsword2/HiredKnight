@@ -8,7 +8,7 @@
 - [Usecases](usecases.md)
 - [Usability Test](usabilitytest.md)
 ------------------------------------------------------------------------
-<b>Link to Prototype:</b>
+<b>Link to Mockup:</b>
 https://balsamiq.cloud/spl2ut0/p4n7bsk/r2278?f=N4IgUiBcAMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D
 
 

@@ -8,11 +8,5 @@
 - [Usecases](usecases.md)
 - [Usability Test](usabilitytest.md)
 ------------------------------------------------------------------------
-# File Navigation <!-- omit in toc -->
-- [titel 27](#titel-27)
-  - [titel 28](#titel-28)
-
-# titel 27
-## titel 28
-
-
+# Short Description <!-- omit in toc -->
+The application allows the client to order one or multiple soldiers/knights. The client can choose the equipment.
