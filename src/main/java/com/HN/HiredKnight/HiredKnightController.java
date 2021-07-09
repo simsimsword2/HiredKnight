@@ -30,7 +30,7 @@ public class HiredKnightController {
             tempSoldier = new Lance(tempSoldier);
         }
 
-        if (equip.contains("heavy_ armour")) {
+        if (equip.contains("heavyarmour")) {
             tempSoldier = new HeavyArmour(tempSoldier);
         } else if (equip.contains("lightarmour")) {
             tempSoldier = new LightArmour(tempSoldier);
