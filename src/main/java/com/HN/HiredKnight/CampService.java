@@ -19,9 +19,7 @@ public class CampService {
 
             Optional<Camp> databaseSoldier = campRepository.findById(newSoldier.getDescription());
 
-            if (databaseSoldier.isPresent()) {
-                newSoldier.setQuantity(newSoldier.getQuantity() + databaseSoldier.get().getQuantity());
-            }
+            databaseSoldier.ifPresent(camp -> newSoldier.setQuantity(newSoldier.getQuantity() + camp.getQuantity()));
         }
         campRepository.save(newSoldier);
     }
@@ -66,7 +64,7 @@ public class CampService {
 
         Response_createSoldier response = new Response_createSoldier();
         response.soldier_description = soldier.getDescription();
-        response.sodier_quantity = soldier.getQuantity();
+        response.soldier_quantity = soldier.getQuantity();
         response.soldier_cost = soldier.getCost();
 
         return response;

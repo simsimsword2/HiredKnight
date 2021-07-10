@@ -6,7 +6,7 @@ public class Response_createSoldier {
     @JsonProperty("soldier_description")
     public String soldier_description;
     @JsonProperty("soldier_quantity")
-    public int sodier_quantity;
+    public int soldier_quantity;
     @JsonProperty("soldier_cost")
     public int soldier_cost;
 }
