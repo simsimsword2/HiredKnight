@@ -19,7 +19,7 @@ public class HiredKnightController {
 
 
     @PutMapping()
-    public void addToCamp(@RequestParam(value = "equip") String equip
+    public Response_createSoldier[] addToCamp(@RequestParam(value = "equip") String equip
                          ,@RequestParam(value = "number", defaultValue = "1") int number) {
 
 
@@ -54,14 +54,14 @@ public class HiredKnightController {
         campService.save(newSoldier);
 
         // get all data from database
-        showCamp();
+        return showCamp();
     }
 
 
     @DeleteMapping()
-    public void demobilize(@RequestParam(value = "description") String description, @RequestParam(value = "number", defaultValue = "1") int number) {
+    public Response_createSoldier[] demobilize(@RequestParam(value = "description") String description, @RequestParam(value = "number", defaultValue = "1") int number) {
         campService.delete(description, number);
-        showCamp();
+        return showCamp();
     }
 
 }
