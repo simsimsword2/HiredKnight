@@ -1,6 +1,5 @@
 package com.HN.HiredKnight;
 
-import com.HN.HiredKnight.Camp;
 import org.springframework.data.repository.CrudRepository;
 
 
