@@ -17,9 +17,13 @@ public class HiredKnightController {
         return campService.returnAll();
     }
 
-    @PutMapping()
-    public Response_createSoldier[] camp(@RequestParam(value = "equip") String equip, @RequestParam(value = "number", defaultValue = "1") int number) {
 
+    @PutMapping()
+    public void addToCamp(@RequestParam(value = "equip") String equip
+                         ,@RequestParam(value = "number", defaultValue = "1") int number) {
+
+
+        // decorator
         Soldier tempSoldier = new NakedSoldier();
 
         if (equip.contains("axe")) {
@@ -41,9 +45,7 @@ public class HiredKnightController {
         }
 
         // database
-        //CampService campService = new CampService();
         Camp newSoldier = new Camp();
-
         newSoldier.setDescription(tempSoldier.getDescription());
         newSoldier.setCost(tempSoldier.getCost());
         newSoldier.setQuantity(number);
@@ -51,20 +53,15 @@ public class HiredKnightController {
         // save into database
         campService.save(newSoldier);
 
-
         // get all data from database
-        Response_createSoldier[] response;
-        response = campService.returnAll();
-
-
-        return response;
+        showCamp();
     }
 
-    //todo
+
     @DeleteMapping()
-    public Response_createSoldier[] delete(@RequestParam(value = "description") String description, @RequestParam(value = "number", defaultValue = "1") int number) {
+    public void demobilize(@RequestParam(value = "description") String description, @RequestParam(value = "number", defaultValue = "1") int number) {
         campService.delete(description, number);
-        return campService.returnAll();
+        showCamp();
     }
 
 }
