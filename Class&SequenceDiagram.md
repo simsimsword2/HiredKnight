@@ -1,4 +1,4 @@
-# Usecases
+# Class & Sequence Diagram
 
 
 # Docu Navigation <!-- omit in toc -->
@@ -9,14 +9,10 @@
 - [Class & Sequence Diagram](Class&SequenceDiagram.md)
 - [Usability Test](usabilitytest.md)
 ----------------------------------------------------------------------------------
-# Use Case Diagram
-![usecaseddiagram](images/uc_diagram.PNG)
+# Class Diagram
 
+![classdiagram](images/Knight_Hire_class.png)
 ----------------------------------------------------------------------------------
-# Use Case Description 
-![usecase1](images/uc1.PNG)
-![usecase2](images/uc2.PNG)
-![usecase3](images/uc3.PNG)
-![usecase4](images/uc4.PNG)
-![usecase5](images/uc5.PNG)
-![usecase6](images/uc6.PNG)
+# Sequence Diagram
+
+![sequencediagram](images/Knight_Hire_sequence.png)
