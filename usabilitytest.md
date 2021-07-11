@@ -27,8 +27,15 @@ https://balsamiq.cloud/spl2ut0/p9j6jsp/r2278?f=N4IgUiBcAMA0IDkpxAYWfAMhkAhHAsjgF
 
 # Usability Test 2
 
+This Test is not optimal for testing because the user is more or less guided through the test completely. It tells the user exactly what to to and that is a kind of influence.
+
+Anyway we can test if the user knows where to click in which situation and find out if the button placement, names and sizes are good.
+
 <b>Link to Mockup online:</b>
 https://balsamiq.cloud/spl2ut0/p4n7bsk/r2278?f=N4IgUiBcAMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D
+
+<b>As pdf:</b>
+- [HiredKnightMockup_plus.pdf](pdfs/HiredKnightMockup_plus.pdf)
 
 
 ## Test 2 instructions
@@ -62,4 +69,4 @@ https://balsamiq.cloud/spl2ut0/p4n7bsk/r2278?f=N4IgUiBcAMA0IDkpxAYWfAMhkAhHAsjgF
 | Layout: Knight modification        |                                   |
 | Layout: Arrow placement            |                                   |
 | Layout: Navigation button placement|                                   |
-| Navigation: Difficulty             |                                   |
+| Navigation: Difficulties?             |                                   |
