@@ -34,10 +34,10 @@ public class HiredKnightController {
             tempSoldier = new Lance(tempSoldier);
         }
 
-        if (equip.contains("heavyarmour")) {
-            tempSoldier = new HeavyArmour(tempSoldier);
-        } else if (equip.contains("lightarmour")) {
-            tempSoldier = new LightArmour(tempSoldier);
+        if (equip.contains("heavyarmor")) {
+            tempSoldier = new HeavyArmor(tempSoldier);
+        } else if (equip.contains("lightarmor")) {
+            tempSoldier = new LightArmor(tempSoldier);
         }
 
         if (equip.contains("horse")) {

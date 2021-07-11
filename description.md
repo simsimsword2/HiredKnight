@@ -12,7 +12,7 @@
  # Description
 
 In this application the customers can design their own soldiers/knights. There are three different types of equipment they can choose from:
-1. Armour Type
+1. Armor Type
 2. Weapon
 3. Mount
 
