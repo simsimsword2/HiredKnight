@@ -23,7 +23,7 @@ You are the king/queen of castle Burgenstein and want to have your own little un
 https://balsamiq.cloud/spl2ut0/p9j6jsp/r2278?f=N4IgUiBcAMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D
 
 <b>As pdf:</b>
-- [HiredKnightTest_Wireframe.pdf](HiredKnightTest_Wireframe.pdf) 
+- [HiredKnightTest_Wireframe.pdf](pdfs/HiredKnightTest_Wireframe.pdf) 
 
 # Usability Test 2
 
