@@ -9,7 +9,6 @@
 - [Class & Sequence Diagram](Class&SequenceDiagram.md)
 - [Usability Test](usabilitytest.md)
 ------------------------------------------------------------------------
-#Usability Test 1
 
 ## Goal
 We want to find out if the test user can navigate through the application and find out where the user had difficulties.
