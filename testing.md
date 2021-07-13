@@ -62,7 +62,7 @@ The second test is used to find out, if deleting 6 of 5 soldiers results in the 
 
 ![testdelete3](images/test_delete3.png)
 
-## verdict
+## Verdict
 After several bugfixes the test results satisfy our expectations.\
 We tried to include edge case in our testing and thereby tested the functions as well as the limits of our program.\
 Working with postman proved to be very efficient. Thanks to postman’s ability to save requests we were able to repeat\
