@@ -10,6 +10,8 @@ import javax.persistence.Table;
 
 @Table
 
+
+// represents the table of the database
 public class Camp {
 
     @Id

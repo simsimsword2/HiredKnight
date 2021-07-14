@@ -12,12 +12,14 @@ public class HiredKnightController {
     CampService campService;
 
 
+    // return all entries from DB
     @GetMapping()
     public Response_createSoldier[] showCamp(){
         return campService.returnAll();
     }
 
 
+    // new entry is converted into Json and saved to the DB
     @PutMapping()
     public Response_createSoldier[] addToCamp(@RequestParam(value = "equip") String equip
                          ,@RequestParam(value = "number", defaultValue = "1") int number) {
@@ -58,6 +60,7 @@ public class HiredKnightController {
     }
 
 
+    // remove / reduce one of the new entries
     @DeleteMapping()
     public Response_createSoldier[] demobilize(@RequestParam(value = "description") String description, @RequestParam(value = "number", defaultValue = "1") int number) {
         campService.delete(description, number);
