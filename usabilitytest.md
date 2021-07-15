@@ -46,6 +46,18 @@ The test user nagivated through the website without any struggles. He instantly 
 Test user comment:\
 "Everything was clear and it was easy to navigate. As soon as colors and a more detailed design is made it will be even easier."
 
+### Third Testrun
+
+Test user:  Lea Jonas & Nick Kreuzen\
+Test date:  15.07.2021\
+Observation:\
+The test users were able to find all the buttons they needed to press with ease. One little hiccup occurred when they tried to use the arrow-button to the left
+instead of the one to the right because it was closer to the text "Armor".
+
+Test user comment:\
+"The structure of the wibsite is intuitive"
+
+
 # Usability Test 2
 
 This Test is not optimal for testing because the user is more or less guided through the test completely. It tells the user exactly what to to and that is a kind of influence.
