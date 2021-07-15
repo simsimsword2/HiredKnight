@@ -50,6 +50,7 @@ Test user comment:\
 
 Test user:  Lea Jonas & Nick Kreuzen\
 Test date:  15.07.2021\
+Level of experience: Both subjects are occasional visitors of web shops and have moderate computer skills.
 Observation:\
 The test users were able to find all the buttons they needed to press with ease. One little hiccup occurred when they tried to use the arrow-button to the left
 instead of the one to the right because it was closer to the text "Armor".
