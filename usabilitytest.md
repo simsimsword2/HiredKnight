@@ -24,6 +24,28 @@ https://balsamiq.cloud/spl2ut0/p9j6jsp/r2278?f=N4IgUiBcAMA0IDkpxAYWfAMhkAhHAsjgF
 <b>As pdf:</b>
 - [HiredKnightTest_Wireframe.pdf](pdfs/HiredKnightTest_Wireframe.pdf) 
 
+## Test 1 Results
+
+### First Testrun
+
+Test user:  Ella Froese\
+Test date:  15.07.2021\
+Observation:\
+The test user immediately knew where to navigate to and was able to navigate through the website from the beginning to the end of the task. There was no hesitating and the order has been successfully placed.
+
+Test user comment:\
+"It was easy to navigate and also button placement was good."
+
+### Second Testrun
+
+Test user:  Patrick Jurt\
+Test date:  15.07.2021\
+Observation:\
+The test user nagivated through the website without any struggles. He instantly knew where to press and was successfull at ordering.
+
+Test user comment:\
+"Everything was clear and it was easy to navigate. As soon colors and a more detailed design is made it will be even easier."
+
 # Usability Test 2
 
 This Test is not optimal for testing because the user is more or less guided through the test completely. It tells the user exactly what to to and that is a kind of influence.
