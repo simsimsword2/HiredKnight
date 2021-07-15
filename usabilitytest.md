@@ -44,7 +44,7 @@ Observation:\
 The test user nagivated through the website without any struggles. He instantly knew where to press and was successfull at ordering.
 
 Test user comment:\
-"Everything was clear and it was easy to navigate. As soon colors and a more detailed design is made it will be even easier."
+"Everything was clear and it was easy to navigate. As soon as colors and a more detailed design is made it will be even easier."
 
 # Usability Test 2
 
