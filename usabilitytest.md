@@ -46,7 +46,7 @@ The test user nagivated through the website without any struggles. He instantly 
 Test user comment:\
 "Everything was clear and it was easy to navigate. As soon as colors and a more detailed design is made it will be even easier."
 
-### Third Testrun
+### Third and Fourth Testrun
 
 Test user:  Lea Jonas & Nick Kreuzen\
 Test date:  15.07.2021\
@@ -57,6 +57,11 @@ instead of the one to the right because it was closer to the text "Armor".
 
 Test user comment:\
 "The structure of the wibsite is intuitive"
+
+## Test 1 Evaluation
+
+In general the design is good and the users know where to press to advance. Because the mockup for the test was built pretty linear the test was a bit limited. Still we could find out and see if the users struggeled to navigate or not. The little "hickup" with the left and right arrow is not an issue because in the finished product you would be able to press either the left or the right arrow to get the desired equipment.
+Overall good feedback and nothing negative. 
 
 
 # Usability Test 2
