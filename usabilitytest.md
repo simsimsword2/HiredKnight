@@ -16,7 +16,7 @@ For this we are going to observe the user while testing the mockup and let them 
 
 ## Test 1 Scenario
 
-You are the king/queen of castle Burgenstein and want to have your own little unit of guards. You decide to order those on "HiredKnights.ch". You want them to have light armor so they are agile, a sword and be mounted on horses for faster travel.
+You are the king/queen of castle Burgenstein and want to have your own little unit of guards. You decide to order those on "HiredKnights.ch". You want them to have light armor, so they are agile, a sword and be mounted on horses for faster travel.
 
 <b>Link to Mockup online:</b>
 https://balsamiq.cloud/spl2ut0/p9j6jsp/r2278?f=N4IgUiBcAMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D
@@ -41,7 +41,7 @@ Test user comment:\
 Test user:  Patrick Jurt\
 Test date:  15.07.2021\
 Observation:\
-The test user nagivated through the website without any struggles. He instantly knew where to press and was successfull at ordering.
+The test user navigated through the website without any struggles. He instantly knew where to press and was successful at ordering.
 
 Test user comment:\
 "Everything was clear and it was easy to navigate. As soon as colors and a more detailed design is made it will be even easier."
@@ -56,12 +56,13 @@ The test users were able to find all the buttons they needed to press with ease.
 instead of the one to the right because it was closer to the text "Armor".
 
 Test user comment:\
-"The structure of the wibsite is intuitive"
+"The structure of the website is intuitive"
 
 ## Test 1 Evaluation
 
-In general the design is good and the users know where to press to advance. Because the mockup for the test was built pretty linear the test was a bit limited. Still we could find out and see if the users struggeled to navigate or not. The little "hickup" with the left and right arrow is not an issue because in the finished product you would be able to press either the left or the right arrow to get the desired equipment.
-Overall good feedback and nothing negative. 
+In general the design is good and the users know where to press to advance. Because the mockup for the test was built pretty linear the test was a bit limited. Still we could find out and see if the users struggled to navigate or not. The little "hiccup" with the left and right arrow is not an issue because in the finished product you would be able to press either the left or the right arrow to get the desired equipment.
+Overall good feedback and nothing negative.
+
 
 
 # Usability Test 2
